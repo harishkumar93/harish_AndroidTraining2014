@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">LayoutAndButtonDemo</string>
+    <string name="button_paradigm">Paradigm</string>
+    <string name="button_ecentric">eCENTRIC</string>
+    <string name="button_egramit">eGRAMIT</string>
+    <string name="button_infosys">Infosys</string>
+    <string name="button_tcs">TCS</string>
+    <string name="button_cts">CTS</string>
+    <string name="button_tm">TechMahindra</string>
+    <string name="button_done">Submit</string>
+
+</resources>

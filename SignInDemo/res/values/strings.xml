@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">SignInDemo</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_uname">User Name  :-</string>
+    <string name="txt_pwd">Password  :-</string>
+    <string name="button_login">Login</string>
+    <string name="txt_forgot">Forgot Password ???</string>
+    <string name="hint_un">Enter Your E-mail Id</string>
+    <string name="hint_pwd">Enter Password &#8230;</string>
+    <string name="button_li">Click Here To Login With linkdin</string>
+
+</resources>

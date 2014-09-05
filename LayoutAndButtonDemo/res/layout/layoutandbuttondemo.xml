@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:weightSum="3" >
+	<Button
+        android:name="@+id/paradigm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_paradigm"/>
+	
+    <Button
+        android:name="@+id/ecentric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/ecentric"/>
+    
+    
+    <Button
+        android:name="@+id/egramit" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+   		android:text="@string/button_egramit"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:weightSum="2" >
+    
+    <Button
+        android:name="@+id/infosys"
+        android:background="@drawable/infosys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"/>
+    <Button
+        android:name="@+id/tcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+       android:text="@string/button_tcs"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:weightSum="2.0">
+    
+    <Button
+        android:name="@+id/cts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:text="@string/button_cts"/>
+
+    <Button
+        android:name="@+id/tm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/tm"/>
+
+    </LinearLayout>
+
+    <Button
+        android:name="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_done" 
+        android:background="#d3d3d3"/>
+    
+</LinearLayout>
