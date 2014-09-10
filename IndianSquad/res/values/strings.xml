@@ -4,21 +4,21 @@
 <string name="click">Indian Squad For 2015 </string>
 <string name="squad_btn">Click Here to See The 
     squad</string>
-    <string name="first">Rohit Sharma </string>
-    <string name="second">Shikar Dhawan </string>
-    <string name="third">Virat Kohli (VC) </string>
-    <string name="fourth">Suresh Raina </string>
-    <string name="fifth">Ajankya Rahane </string>
-    <string name="sixth"> Mahendra Singh Dhoni </string>
-    <string name="seventh">Ravindra jadeja </string>
-    <string name="eigth">RaviChandran Ashwin </string>
-    <string name="ninth">Bhuvaneshwar kumar </string>
-    <string name="tenth"> Mohamad Shami</string>
-    <string name="eleven">Ishanth Sharma </string>
-    <string name="twelve">Sanju Samson </string>
-    <string name="thirteen">Ambati Rayadu </string>
-    <string name="fourteen">Zaheer Khan </string>
-    <string name="fifteen">Mohit Sharma</string>
-    <string name="sixteen">Umesh Yadav </string>
+    <string name="first">1.Rohit Sharma </string>
+    <string name="second">2.Shikar Dhawan </string>
+    <string name="third">3.Virat Kohli (VC) </string>
+    <string name="fourth">4.Suresh Raina </string>
+    <string name="fifth">5.Ajankya Rahane </string>
+    <string name="sixth">6. Mahendra Singh Dhoni (wk)(c)</string>
+    <string name="seventh">7.Ravindra jadeja </string>
+    <string name="eigth">8.RaviChandran Ashwin </string>
+    <string name="ninth">9.Bhuvaneshwar kumar </string>
+    <string name="tenth"> 10.Mohamad Shami</string>
+    <string name="eleven">11.Ishanth Sharma </string>
+    <string name="twelve">12.Sanju Samson </string>
+    <string name="thirteen">13.Ambati Rayadu </string>
+    <string name="fourteen">14.Zaheer Khan </string>
+    <string name="fifteen">15.Mohit Sharma</string>
+    <string name="sixteen">16.Umesh Yadav </string>
     
 </resources>
