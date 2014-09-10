@@ -1,0 +1,55 @@
+package com.pcs.indianteam;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class IndianTeam implements Parcelable{
+		
+		private String FirstMember;
+		private String SecondMember;
+		private String ThirdMember;
+		private String FourthMember;
+		private String FifthMember;
+		private String SixthMember;
+		private String SeventhMember;
+		private String EigthMember;
+		private String NinthMember;
+		private String TenthMember;
+		private String ElevenMember;
+		private String TwelveMember;
+		private String ThirteenMember;
+		private String FourteenMember;
+		private String FifteenMember;
+		private String SixteenMember;
+		
+		@Override
+		public int describeContents() {
+
+			return 0;
+		}
+
+		@Override
+		public void writeToParcel(Parcel dest, int flags) {
+			dest.writeString(getFirstMember());
+			dest.writeString(getSecondMember());
+			dest.writeString(getThirdMember());
+			dest.writeString(getFourthMember());
+			dest.writeString(getFifthMember());
+			dest.writeString(getSixthMember());
+			dest.writeString(getSeventhMember());
+			dest.writeString(getEigthMember());
+			dest.writeString(getNinthMember());
+			dest.writeString(getTenthMember());
+			dest.writeString(getElevenMember());
+			dest.writeString(getTwelveMember());
+			dest.writeString(getThirteenMember());
+			dest.writeString(getFourteenMember());
+			dest.writeString(getFifteenMember());
+			dest.writeString(getSixteenMember());
+
+		}
+			
+		}
+
+
+}

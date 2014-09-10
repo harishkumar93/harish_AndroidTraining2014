@@ -1,0 +1,19 @@
+package com.pcs.indiansquad;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class TeamActivity extends Activity {
+	 private TextView crick;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.team);
+	  IndianTeam team = getIntent().getParcelableExtra(Constants.IntentExtras.INDIAN);
+	  crick.setText(team.toString());
+	  
+	}
+
+}

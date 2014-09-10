@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">IndianSquad</string>
+<string name="click">Indian Squad For 2015 </string>
+<string name="squad_btn">Click Here to See The 
+    squad</string>
+    <string name="first">Rohit Sharma </string>
+    <string name="second">Shikar Dhawan </string>
+    <string name="third">Virat Kohli (VC) </string>
+    <string name="fourth">Suresh Raina </string>
+    <string name="fifth">Ajankya Rahane </string>
+    <string name="sixth"> Mahendra Singh Dhoni </string>
+    <string name="seventh">Ravindra jadeja </string>
+    <string name="eigth">RaviChandran Ashwin </string>
+    <string name="ninth">Bhuvaneshwar kumar </string>
+    <string name="tenth"> Mohamad Shami</string>
+    <string name="eleven">Ishanth Sharma </string>
+    <string name="twelve">Sanju Samson </string>
+    <string name="thirteen">Ambati Rayadu </string>
+    <string name="fourteen">Zaheer Khan </string>
+    <string name="fifteen">Mohit Sharma</string>
+    <string name="sixteen">Umesh Yadav </string>
+    
+</resources>

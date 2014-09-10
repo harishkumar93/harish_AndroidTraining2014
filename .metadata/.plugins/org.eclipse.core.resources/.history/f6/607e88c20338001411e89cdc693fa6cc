@@ -1,0 +1,20 @@
+package com.pcs.indiansquad;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class IndianSquadActivity extends Activity {
+	 private Button squadBtn;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.india);
+		
+		squadBtn = (Button) findViewById(R.id.squad_btn);
+		
+		
+	}
+
+}

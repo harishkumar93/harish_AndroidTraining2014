@@ -1,0 +1,37 @@
+package com.pcs.model;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class IndianTeam implements Parcelable{
+   private string FirstMember;
+   private string SecondMember;
+   private string ThirdMember;
+   private string FourthMember;
+   private string FifthMember;
+   private string SixthMember;
+   private string SeventhMember;
+   private string EigthMember;
+   private string NinthMember;
+   private string TenthMember;
+  
+   private string ElevenMember;
+   private string TwelveMember;
+   private string ThirteenMember;
+   private string FourteenMember;
+   private string FifteenMember;
+   private string SixteenMember;
+   
+	@Override
+	public int describeContents() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

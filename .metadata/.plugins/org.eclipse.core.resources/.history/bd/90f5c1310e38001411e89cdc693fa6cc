@@ -1,0 +1,26 @@
+package com.pcs.indianteam;
+
+import android.os.Parcelable;
+
+public class IndianTeam implements Parcelable{
+	public class IndianTeam implements Parcelable{
+		
+		private String FirstMember;
+		private String SecondMember;
+		private String ThirdMember;
+		private String FourthMember;
+		private String FifthMember;
+		private String SixthMember;
+		private String SeventhMember;
+		private String EigthMember;
+		private String NinthMember;
+		private String TenthMember;
+		private String ElevenMember;
+		private String TwelveMember;
+		private String ThirteenMember;
+		private String FourteenMember;
+		private String FifteenMember;
+		private String SixteenMember;
+
+
+}

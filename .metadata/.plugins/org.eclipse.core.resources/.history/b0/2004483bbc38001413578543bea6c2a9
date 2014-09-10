@@ -1,0 +1,21 @@
+package com.pcs.implicitintent;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class ImplicitIntent extends Activity {
+	private Button callBtn;
+	private Button browseBtn;
+	private Button musicBtn;
+	private Button galleryBtn;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+	
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.implicit);
+		
+	}
+	
+
+}
