@@ -13,6 +13,7 @@ public class ImplicitIntent extends Activity implements OnClickListener{
 	private Button browseBtn;
 	private Button musicBtn;
 	private Button galleryBtn;
+	private Button contactBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +24,13 @@ public class ImplicitIntent extends Activity implements OnClickListener{
 		browseBtn = (Button)findViewById(R.id.browse_btn);
 		musicBtn = (Button) findViewById(R.id.music_btn);
 		galleryBtn = (Button) findViewById(R.id.gallery_btn);
+		contactBtn = (Button) findViewById(R.id.contact_btn);
 
 		callBtn.setOnClickListener(this);
 		browseBtn.setOnClickListener(this);
 		musicBtn.setOnClickListener(this);
 		galleryBtn.setOnClickListener(this);
+		contactBtn.setOnClickListener(this);
 
 
 	}
@@ -65,7 +68,14 @@ public class ImplicitIntent extends Activity implements OnClickListener{
 			intent.setData(Uri.parse("android.jpg"));
 			startActivity(Intent.createChooser(intent, getResources().getString(R.string.gall)));
 			break;
+			
+		case R.id.contact_btn :
 
+			intent = new Intent(Intent.ACTION_VIEW);
+			intent.setData(Uri.parse("content://contacts/people/"));
+			startActivity(Intent.createChooser(intent, getResources().getString(R.string.con)));
+			break;
+       
 		default:
 			break;
 		}	

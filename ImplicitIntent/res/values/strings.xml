@@ -5,8 +5,11 @@
     <string name="cal">U r unable to  call</string>
     <string name="browse">Click to Browse</string>
     <string name="music">Click to listen</string>
+    <string name="contacts">Click to view contacts</string>
+    
     <string name="musi">Unable to Start Music Player</string>
-    <string name="gallery">Click to view</string>
+    <string name="gallery">Click to view gallery</string>
     <string name="gall">No image Viewer in your Android</string>
+    <string name="con">No contacts are present</string>
 
 </resources>

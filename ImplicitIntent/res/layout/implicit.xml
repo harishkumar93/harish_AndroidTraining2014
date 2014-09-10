@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" 
+    android:background="#D1E0FF">
     
     <Button 
         android:layout_height="wrap_content"
@@ -28,6 +29,10 @@
         android:id="@+id/gallery_btn"
         android:text="@string/gallery"
         />
-    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_btn"
+        android:text="@string/contacts"/>
 
 </LinearLayout>

@@ -16,6 +16,7 @@ public final class R {
     public static final class id {
         public static final int browse_btn=0x7f060001;
         public static final int call_btn=0x7f060000;
+        public static final int contact_btn=0x7f060004;
         public static final int gallery_btn=0x7f060003;
         public static final int music_btn=0x7f060002;
     }
@@ -27,9 +28,11 @@ public final class R {
         public static final int browse=0x7f040003;
         public static final int cal=0x7f040002;
         public static final int call=0x7f040001;
-        public static final int gall=0x7f040007;
-        public static final int gallery=0x7f040006;
-        public static final int musi=0x7f040005;
+        public static final int con=0x7f040009;
+        public static final int contacts=0x7f040005;
+        public static final int gall=0x7f040008;
+        public static final int gallery=0x7f040007;
+        public static final int musi=0x7f040006;
         public static final int music=0x7f040004;
     }
     public static final class style {
