@@ -13,4 +13,5 @@
 <fullyQualifiedTypeName name="com.pcs.constants.Constants.IntentExtras"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.os.Parcelable"/>
+<fullyQualifiedTypeName name="com.pcs.implicitintent.R.id"/>
 </qualifiedTypeNameHistroy>
