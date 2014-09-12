@@ -4,15 +4,19 @@
 		<item value="847" key="dialogWidth"/>
 		<item value="474" key="dialogHeight"/>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.perspectives"/>
 		</list>
 		<list key="textArray">
+			<item value="log"/>
 			<item value="ddms"/>
 		</list>
 		<list key="orderedElements">
+			<item value="com.android.ide.eclipse.ddms.views.LogCatView"/>
 			<item value="com.android.ide.eclipse.ddms.Perspective"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="1"/>
 		</list>
 	</section>

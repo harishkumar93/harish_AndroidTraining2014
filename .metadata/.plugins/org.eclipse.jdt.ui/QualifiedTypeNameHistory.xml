@@ -11,7 +11,20 @@
 <fullyQualifiedTypeName name="android.os.Parcelable.Creator"/>
 <fullyQualifiedTypeName name="com.pcs.constants.Constants"/>
 <fullyQualifiedTypeName name="com.pcs.constants.Constants.IntentExtras"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.os.Parcelable"/>
 <fullyQualifiedTypeName name="com.pcs.implicitintent.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnCreateContextMenuListener"/>
+<fullyQualifiedTypeName name="com.pcs.listviewexample.R.id"/>
+<fullyQualifiedTypeName name="com.pcs.listviewexample.ListView"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="com.pcs.playerslist.Player"/>
+<fullyQualifiedTypeName name="android.widget.BaseAdapter"/>
+<fullyQualifiedTypeName name="com.pcs.customactivity.CustomAdapter"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.pcs.listviewexample.ListViewExample"/>
 </qualifiedTypeNameHistroy>
