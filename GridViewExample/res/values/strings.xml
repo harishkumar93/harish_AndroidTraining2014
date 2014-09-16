@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">GridViewExample</string>
+    <string name="players">Cricket Players</string>
+    <string name="details">Cricket Players details</string>
+    <string name="name"> Player name</string>
+    <string name="jersey"> Player jersey number</string>
+    <string name="country"> Player country</string>
+    <string name="stream"> Player stream</string>
+    <string name="done">Enter</string>
+    <string name="contacts">Players List</string>
+    <string name = "news">Enter Player Details</string>
+
+</resources>
