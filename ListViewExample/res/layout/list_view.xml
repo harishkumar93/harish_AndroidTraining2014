@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/jersey"
-        android:inputType="textEmailAddress"
+        android:inputType="number"
         android:padding="10dp"
         android:textColor="#006B00" />
 
@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/country"
-        android:inputType="phone"
+        android:inputType="text"
         android:textColor="#006B00" />
 
     <EditText

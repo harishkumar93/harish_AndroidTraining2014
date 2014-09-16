@@ -34,7 +34,7 @@ public class ListViewExample  extends Activity {
 		addBtn = (Button)findViewById(R.id.adds);
 		playerslist = new ArrayList<Player>();
 		players = new Player();
-		 adapter = new CustomAdapter(ListViewExample.this, playerslist);
+		adapter = new CustomAdapter(ListViewExample.this, playerslist);
 		addBtn.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -51,7 +51,7 @@ public class ListViewExample  extends Activity {
 		if(data!=null)
 
 		{
-			Player player = new Player();
+			Player players = new Player();
 			String name = data.getStringExtra(Constants.IntentExtras.NAME);
 			String jersey = data.getStringExtra(Constants.IntentExtras.JERSEY);
 			String country = data.getStringExtra(Constants.IntentExtras.COUNTRY);
@@ -61,6 +61,7 @@ public class ListViewExample  extends Activity {
 			players.setCountry(country);
 			players.setStream(stream);
 			playerslist.add(players);
+			
 			ls.setAdapter(adapter);
 		}
 	}

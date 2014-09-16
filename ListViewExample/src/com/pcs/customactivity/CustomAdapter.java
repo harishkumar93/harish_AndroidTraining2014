@@ -42,56 +42,33 @@ public class CustomAdapter  extends BaseAdapter{
 	@Override
 	public long getItemId(int position) {
 		// TODO Auto-generated method stub
-		return 0;
+		return position;
 	}
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		Player players = (Player) getItem(position);
+		
 		ViewHolder holder = null;
-
+		Player players = (Player) getItem(position);
 		if(convertView==null)
 		{
 			convertView = layoutInflater.inflate(R.layout.details, null);
 			holder = new ViewHolder();
 			holder.imageView = (ImageView) convertView.findViewById(R.id.player_image);
-
 			holder.nameTxt = (TextView)convertView.findViewById(R.id.player_name);
 			holder.jerseyTxt = (TextView)convertView.findViewById(R.id.player_jersey);
 			holder.countryTxt = (TextView)convertView.findViewById(R.id.player_country);
 			holder.streamTxt = (TextView)convertView.findViewById(R.id.player_stream);
+			convertView.setTag(holder);
 		}
-		if(position==0)
-		{
-			holder.imageView.setBackgroundResource(R.drawable.dhoni);
-
-
+		else{
+			holder = (ViewHolder)convertView.getTag();
 		}
-
-		else if(position==1)
-		{
-			holder.imageView.setBackgroundResource(R.drawable.sachin);
-
-
-		}
-		else if(position==2)
-		{
-			holder.imageView.setBackgroundResource(R.drawable.gilly);
-
-
-		}
-		else if(position==3)
-		{
-			holder.imageView.setBackgroundResource(R.drawable.mcgrath);
-
-
-		}
-
-		holder.nameTxt.setText("Player Name:-"+players.getPlayerName());
+		holder.imageView.setBackgroundResource(R.drawable.player);
+		holder.nameTxt.setText("Name:-"+players.getPlayerName());
 		holder.jerseyTxt.setText("Jersey No:-"+players.getJerseyNumber());
 		holder.countryTxt.setText("Country:-"+players.getCountry());
 		holder.streamTxt.setText("Stream:-"+players.getStream());
-
 		convertView.setPadding(4, 4, 4, 4);
 		return convertView;
 	}
@@ -104,7 +81,7 @@ public class CustomAdapter  extends BaseAdapter{
 		public TextView streamTxt;
 
 	}
-public void getPlayers(ArrayList<Player> players){
+public void addPlayers(ArrayList<Player> players){
 	if(playerslist!=null)
 	{
 		playerslist = new ArrayList<Player>(players);
@@ -119,7 +96,7 @@ public void getPlayers(ArrayList<Player> players){
 		else
 			throw new IllegalArgumentException("Players Array List should not be null");
 	}
-public void getPlayer(Player player)
+public void addPlayer(Player player)
 {
 	if(playerslist!=null)
 	{
