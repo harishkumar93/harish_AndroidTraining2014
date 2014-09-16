@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-    android:id="@+id/list">
-    
-    
-    
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-</ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#006B00"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/contacts"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/adds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#006B00"
+        android:padding="10dp"
+        android:text="@string/news"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" >
+    </Button>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp" >
+    </ListView>
+
+</LinearLayout>

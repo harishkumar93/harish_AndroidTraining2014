@@ -92,7 +92,7 @@ public class CustomAdapter  extends BaseAdapter{
 		holder.countryTxt.setText("Country:-"+players.getCountry());
 		holder.streamTxt.setText("Stream:-"+players.getStream());
 
-
+		convertView.setPadding(4, 4, 4, 4);
 		return convertView;
 	}
 	public class ViewHolder
@@ -104,5 +104,29 @@ public class CustomAdapter  extends BaseAdapter{
 		public TextView streamTxt;
 
 	}
-
+public void getPlayers(ArrayList<Player> players){
+	if(playerslist!=null)
+	{
+		playerslist = new ArrayList<Player>(players);
+	}
+	if(players!=null)
+	{
+		for (Player player : players) {
+			playerslist.add(player);
+		}
+		notifyDataSetChanged();
+	}
+		else
+			throw new IllegalArgumentException("Players Array List should not be null");
+	}
+public void getPlayer(Player player)
+{
+	if(playerslist!=null)
+	{
+		playerslist.add(player);
+		notifyDataSetChanged();
+	}
+	else
+		throw new IllegalArgumentException("Player Information should not be null");
+}
 }
