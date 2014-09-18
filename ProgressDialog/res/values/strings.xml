@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">ProgressDialog</string>
+    <string name="banner">Click Here to Create Account</string>
+        <string name="create_btn">Create</string>
+            <string name="loading_dialog"> Creating Account</string>
+              <string name="head">Enter Details</string>
+                            <string name="name">User Name :</string>
+              
+        <string name="name_hint">Enter  Name</string>
+        <string name="email">Email Id:</string>
+        <string name="email_hint">Enter Your Email Address</string>
+        <string name="phone">Phone:</string>
+        <string name="phone_hint">Enter Your Phone Number</string>
+        
+        <string name="dob">Date of Birth</string>
+        <string name="date_hint">Enter Date of Birth</string>
+        <string name="time">Time:</string>
+        <string name="time_hint">Login Time</string>
+        
+        
+         <string name="submit">Submit</string>
+         <string name="pcs_name">Name: Paradigm Creatives</string>
+        <string name="set_appointment">Set Appointment</string>       
+           <string name="dialog_title">Confirmation:</string>
+             <string name="ok_btn">OK</string>
+            <string name="cancel_btn">Cancel</string>
+            
+                    
+    
+  </resources>
