@@ -17,7 +17,7 @@
         android:contentDescription="@string/app_name"
         android:layout_width="190dp"
         android:layout_height="160dp"
-        android:src="@drawable/ic_launcher"
+        android:src="@drawable/register"
         android:layout_gravity="center"/>
    
    <Button

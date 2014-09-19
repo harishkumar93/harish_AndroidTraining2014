@@ -8,6 +8,7 @@
                             <string name="name">User Name :</string>
               
         <string name="name_hint">Enter  Name</string>
+         <string name="enter">Enter</string>
         <string name="email">Email Id:</string>
         <string name="email_hint">Enter Your Email Address</string>
         <string name="phone">Phone:</string>
