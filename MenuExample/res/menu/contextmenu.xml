@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/context_addPlaylist"
+        android:title="@string/context_addPlaylist">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/context_selected"
+                    android:title="@string/context_selected"/>
+                <item
+                    android:id="@+id/context_multiple"
+                    android:title="@string/context_multiple"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/context_delete"
+        android:title="@string/context_delete"/>
+    <item
+        android:id="@+id/context_deleteMultiple"
+        android:title="@string/context_deleteMultiple"/>
+    <item
+        android:id="@+id/context_list"
+        android:title="@string/context_list">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/context_title"
+                    android:title="@string/context_title"/>
+                <item
+                    android:id="@+id/context_recent"
+                    android:title="@string/context_recent"/>
+            </group>
+        </menu>
+    </item>
+     <item
+        android:id="@+id/context_details"
+        android:title="@string/context_details"/>
+
+</menu>

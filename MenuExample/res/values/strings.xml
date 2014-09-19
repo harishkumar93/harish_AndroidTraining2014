@@ -1,0 +1,52 @@
+<resources>
+
+    <string name="app_name">MenuExample</string>
+    <string name="head">Music Player</string>
+    <string name="music">Music</string>
+    
+    
+    <string name="song_1">Vande mataram</string>
+    <string name="song_one">Song one</string>
+    <string name="song_two">Song two</string>
+    <string name="song_three">Song Three</string>
+    <string name="song_four">Song Four</string>
+    <string name="song_2">Sare Jaha Se Acha</string>
+    <string name="song_3">Jana Gana Mana</string>
+    <string name="song_4">This is it</string>
+    <string name="option_artists"> Artists </string>
+    <string name="option_albums"> Albums</string>
+    <string name="option_playlists"> Playlists </string>
+    <string name="option_songs"> Songs </string>
+    <string name="option_recordings"> Recordings</string>
+    <string name="context_addPlaylist"> Add Playlists</string>
+    <string name="context_selected"> Selected</string>
+    <string name="context_multiple"> Multiple</string>
+    <string name="context_delete"> Delete</string>
+    <string name="context_deleteMultiple"> Delete Multiple</string>
+    <string name="context_listBy"> List By</string>
+    <string name="context_title"> Title</string>
+    <string name="context_recent"> Recently Used</string>
+    <string name="context_details"> Details</string>
+    <string name="context_list">List</string>
+    <string name="res_add">Add to playlist</string>
+    <string name="res_select">Playlist Selected</string>
+    <string name="res_multiple">Multiple Songs Selected</string>
+    <string name="res_delete">Songs deleted</string>
+    <string name="res_deleteMultiple">Multiple Songs deleted</string>
+    <string name="res_list">List Selected</string>
+    <string name="res_title">List by Title</string>
+    <string name="res_recent">List by recent activities</string>
+    <string name="res_details">Details Selected</string>
+    <string name="res_artist">Artists Selected</string>
+    <string name="res_albums">Albums Selected</string>
+    <string name="res_playlists">Playlits Selected</string>
+    <string name="res_songs">Songs Selected</string>
+    <string name="res_recordings">Recordings Selected</string>
+    
+    
+    
+    
+    
+    
+
+</resources>
