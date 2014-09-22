@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">SampleFragment</string>
+    <string name="ind_btn"> Click To see India</string>
+    <string name="aus_btn">Click To see Australia</string>
+    <string name="sa_btn">Click To see South Africa</string>
+    <string name="pak_btn">Click To see Pakisthan</string>
+    <string name="ind_team">Indian Cricket Jersey</string>
+    <string name="aus_team">Australian Cricket Jersey</string>
+    <string name="sa_team">South Africa Cricket Jersey</string>
+    <string name="pak_team">Pakisthan Cricket Jersey</string>
+    
+
+</resources>
