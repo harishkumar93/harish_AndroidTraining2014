@@ -24,8 +24,14 @@ public class MainActivity  extends Activity{
 		setContentView(R.layout.main);
 		
 		musicBtn = (Button)findViewById(R.id.music_btn);
+		/***
+		 * Registration is mandatory for Context menu
+		 * But it is not required for Options menu
+		 */
 		registerForContextMenu(musicBtn);
 	}
+	 
+	 
 	 
 	 @Override
 	public void onCreateContextMenu(ContextMenu menu, View v,
@@ -34,6 +40,10 @@ public class MainActivity  extends Activity{
 			menuInflater.inflate(R.menu.contextmenu, menu);
 		super.onCreateContextMenu(menu, v, menuInfo);
 		
+		
+		/**
+		 * Prints a toast message when ever we click an item in Context Menu
+		 */
 		
 	}
 	 @Override
@@ -91,7 +101,12 @@ public class MainActivity  extends Activity{
 			
 		 
 		 return super.onCreateOptionsMenu(menu);
-	}
+
+	 }
+
+		/**
+		 * Prints a toast message when ever we click an item in Option Menu
+		 */
 	 @Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		 
