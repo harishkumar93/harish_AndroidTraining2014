@@ -32,7 +32,13 @@ public class FragmentActivity extends Activity {
 		saBtn = (Button) findViewById(R.id.sa_btn);
 		pakBtn =  (Button) findViewById(R.id.pak_btn);
 		Fragment fragment= null;
-
+		
+		/***
+		 * No onClickListener to the buttons because this is called in the XML files directly
+		 */
+/***
+ * To view diffrent fragments when the buttons were clicked
+ */
 		if(view == indBtn) {
 			fragment  = new IndiaFragment();
 
