@@ -55,6 +55,13 @@ public class MainActivity extends Activity{
 		});
 
 	}
+	
+	/***
+	 * 
+	 * @author pcs
+	 * Takes arguments as   String, Intezer, String
+	 *
+	 */
 
 
 	private  class DownloadPage extends AsyncTask<String, Integer, String>
@@ -67,6 +74,10 @@ public class MainActivity extends Activity{
 			progressBar.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
 			
 		}
+		
+		/**
+		 * Execute method starts with this method
+		 */
 
 		@Override
 		protected void onPreExecute() {
@@ -74,6 +85,10 @@ public class MainActivity extends Activity{
 			progressBar.show();
 			super.onPreExecute();
 		}
+		
+		/**
+		 * The information is retrived through this method
+		 */
 
 		@Override
 		protected String doInBackground(String... args)
@@ -110,12 +125,19 @@ public class MainActivity extends Activity{
 			return stringBuilder.toString();
 
 		}
+		/**
+		 * Updates the progress bar  
+		 */
 
 		@Override
 		protected void onProgressUpdate(Integer... values) {
 
 			super.onProgressUpdate(values[0]);
 		}
+		
+		/**
+		 * The data generated is stored and displayed in this method
+		 */
 
 		@Override
 		protected void onPostExecute(String result) {
