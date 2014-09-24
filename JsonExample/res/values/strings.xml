@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JsonExample Using AsyncTask</string>
+    <string name="url_btn">Url Button</string>
+    <string name="download">Loading Page</string>
+     <string name="json_download">Loading Json Page Details </string>
+	<string name="json_button">Click Here To view Details</string>
+	<string name="user"> User Details </string>
+	
+</resources>
