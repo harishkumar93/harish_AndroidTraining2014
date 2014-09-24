@@ -106,7 +106,7 @@ public class MainActivity extends Activity{
 				
 				while((line=reader.readLine())!=null)
 				{
-					progressBar.setProgress(100);
+					progressBar.setProgress(50);
 					stringBuilder.append(line);
 				}
 
