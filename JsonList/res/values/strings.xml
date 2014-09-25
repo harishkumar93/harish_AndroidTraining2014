@@ -1,5 +1,7 @@
 <resources>
 
     <string name="app_name">JsonList</string>
+    <string name="click_txt">Click Hete To View Details</string>
+    <string name="json_download">Download JSON List</string>
 
 </resources>
