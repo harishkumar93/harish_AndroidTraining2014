@@ -91,7 +91,7 @@ public class MainActivity extends Activity{
 		
 			URL url;
 			try {
-				url = new URL("http://192.168.4.16/users");
+				url = new URL("http://192.168.4.6/users");
 				URLConnection con = url.openConnection();
 				con.connect();
 				InputStream inputStream = con.getInputStream();
@@ -135,7 +135,7 @@ public class MainActivity extends Activity{
 			
 			try {
 				JSONObject jobj = new JSONObject(result);
-				JSONArray jsonArray = jobj.optJSONArray("users_list");
+				JSONArray jsonArray = jobj.getJSONArray("users_list");
 				int size = jsonArray.length();
 				
 				users = new ArrayList<UserDetails>();
@@ -168,9 +168,9 @@ public class MainActivity extends Activity{
 			
 				}
 				
-				if(obj.has("phone"))
+				if(obj.has("phone_number"))
 				{
-					 user.setPhoneNumber(obj.getString("phone"));
+					 user.setPhoneNumber(obj.getString("phone_number"));
 
 					
 				}
@@ -184,13 +184,13 @@ public class MainActivity extends Activity{
 				}
 				users.add(user);
 				listview.setAdapter(adapter);
-				progressBar.dismiss();
+				
 				}
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+			progressBar.dismiss();
 		}
 		}
 
