@@ -50,10 +50,18 @@ public class CustomAdapter extends BaseAdapter {
 
 		@Override
 		public View getView(int position, View convertView,ViewGroup parent) {
+			
+			/***
+			 * created a holder object which holds the entire listview
+			 */
 			ViewHolder holder = null;
 			
 			
 			if(convertView==null)
+				
+				/***
+				 * assigning the display list to this using layoutinflater
+				 */
 			{
 				convertView =layoutInflater.inflate(R.layout.display, null);
 				holder = new ViewHolder();

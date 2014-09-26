@@ -34,6 +34,10 @@ import android.widget.ListView;
 
 
 public class MainActivity extends Activity{
+	
+	/***
+	 * button which is declared in the main activity should be called
+	 */
 	private Button clickBtn ;
 	private ListView listView ;
 	private ProgressDialog progressBar; 
@@ -41,14 +45,26 @@ public class MainActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
+		
+		/***
+		 * assign the main activity here
+		 */
 		setContentView(R.layout.activity_main);
 		
 			clickBtn = (Button)findViewById(R.id.click_btn);
 			listView = (ListView) findViewById(R.id.list_view);
 			
+			/***
+			 * Onclicklistener to the button which is present int the main activity
+			 */
+			
 			clickBtn.setOnClickListener(new OnClickListener() {
 				
 				public void onClick(View arg0) {
+					
+					/***
+					 * When the button is clicked this listview should be displayed
+					 */
 					
 					new DownloadPage(MainActivity.this, listView).execute();				
 					
@@ -91,7 +107,14 @@ public class MainActivity extends Activity{
 		
 			URL url;
 			try {
+				
+				/***
+				 * The users url should be declared such that it takes access
+				 */
 				url = new URL("http://192.168.4.6/users");
+				/***
+				 * created an object for and gave connection to it
+				 */
 				URLConnection con = url.openConnection();
 				con.connect();
 				InputStream inputStream = con.getInputStream();
@@ -125,11 +148,18 @@ public class MainActivity extends Activity{
 
 		}
 		@Override
+		/***
+		 * Updates the progress bar
+		 */
 		protected void onProgressUpdate(Integer... values) {
 
 			super.onProgressUpdate(values[0]);
 		}
 		@Override
+		
+		/***
+		 * Display the list which is present in Json
+		 */
 		protected void onPostExecute(String result) {
 		
 			
@@ -190,6 +220,9 @@ public class MainActivity extends Activity{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+			/***
+			 * dismiss the progress bar after the completion 
+			 */
 			progressBar.dismiss();
 		}
 		}
