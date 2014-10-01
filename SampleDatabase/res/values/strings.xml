@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">SampleDatabase</string>
+    <string name="show_txt">Show Data</string>
+    <string name="insert_txt">Insert Data</string>
+    <string name="delete_txt">Delete Data</string>
+    <string name="name_edt">Enter Student Name</string>
+    <string name="id_edt">Enter Student Id</string>
+    <string name="stream_edt">Enter Student Stream</string>
+    <string name="inserted_txt">Student details are inserted </string>
+    <string name="notInserted_txt">Please enter Student Details</string>
+    <string name="deleted_txt">Student details are deleted</string>
+    <string name="displayed_txt">Displaying student details</string>
+
+</resources>
