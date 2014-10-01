@@ -22,19 +22,28 @@ public class MySQliteHelper  extends SQLiteOpenHelper{
 
 
 
-
+/***
+ * The constructor from StudentOperations is redirected to this constructor
+ * @param context
+ */
 	public MySQliteHelper(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
 
 	}
 
-
+/***
+ * Creates the Student Database
+ */
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		db.execSQL(DATABASE_CREATE_TABLE);
 
 	}
+	
+	/***
+	 * Upgrades the database if there is any change in the schema
+	 */
 
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

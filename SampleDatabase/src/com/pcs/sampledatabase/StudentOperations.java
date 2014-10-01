@@ -15,15 +15,30 @@ public class StudentOperations {
 	
 	private SQLiteDatabase database;
 	
+	/**
+	 * The constructor is called first and this calls The MySQLiteHelper 
+	 * @param mainActivity
+	 */
+	
 	public StudentOperations(MainActivity mainActivity) {
 		dbHelper = new MySQliteHelper(mainActivity);
 		}
+	
+	/***
+	 * Opens the database
+	 * @throws SQLException
+	 */
 
 
 	public void open () throws SQLException
 	{
 		database = dbHelper.getWritableDatabase();		
 	}
+	/**
+	 * Add the details to the Student class
+	 * @param students
+	 * @return students object
+	 */
 	
 	
 	public Students addStudent(Students students)
@@ -41,12 +56,22 @@ public class StudentOperations {
 		return students ;
 			
 	}
+	
+	/***
+	 * get the details from the table
+	 * @return cursor Object
+	 */
 public Cursor getStudents(){
 	
 	database = dbHelper.getReadableDatabase();
 	Cursor c = database.query(MySQliteHelper.TABLE_NAME, null, null, null, null, null, null);
 	return c;
 }
+
+/***
+ * Deletes the details from the table 
+ * @return
+ */
 
 
 public boolean deleteAllStudents() {
