@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">BroadCastActivity</string>
+    <string name="notification_txt">Click To See Notifications</string>
+    <string name="install_title">Notifications List</string>
+    <string name="install_txt"> Notification Viewed </string>
+    
+    
+
+</resources>

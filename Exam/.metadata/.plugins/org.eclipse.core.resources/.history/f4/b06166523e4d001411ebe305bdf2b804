@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">WeatherReport</string>
+    <string name="cityname_hint">Enter City Name</string>
+    <string name="userName_txt">UserName</string>
+    <string name="userName_hint">E mail</string>
+    <string name="passWord_txt">Password</string>
+    <string name="forgot_txt">Forgot password</string>
+    <string name="login_txt">Login</string>
+    <string name="passWord_hint">Enter Password</string>
+    <string name="title_txt">Welcome To Paradigm Creatives</string>
+    
+
+</resources>

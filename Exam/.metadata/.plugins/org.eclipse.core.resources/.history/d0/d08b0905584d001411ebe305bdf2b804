@@ -1,0 +1,13 @@
+package com.pcs.constants;
+
+public class Constants {
+	
+	public static final String USERNAME = "userName";
+	public static final String PASSWORD = "passWord";
+	public static final String CITYNAME = "cityName";
+	
+	
+	
+	
+
+}

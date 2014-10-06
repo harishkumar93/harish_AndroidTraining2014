@@ -1,0 +1,31 @@
+package com.pcs.parcelableactivity;
+
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class MainActivity extends Activity implements Parcelable {
+	
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView();
+	}
+
+	@Override
+	public int describeContents() {
+	
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ParcelableActivity</string>
+    <string name="eId_hint">Enter Employee Id</string>
+    <string name="eName_hint">Enter Employee Name</string>
+    <string name="eDesignation_hint">Enter Designation</string>
+    <string name="login_txt"> Login </string>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">ParcelableActivity</string>
+    <string name="eId_hint">ParcelableActivity</string>
+    <string name="eName_hint">ParcelableActivity</string>
+    <string name="eDesignation_hint"></string>
+
+</resources>
