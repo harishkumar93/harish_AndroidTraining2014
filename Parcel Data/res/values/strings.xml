@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Employee Details</string>
+    <string name="get_info">Get Info</string>
+     <string name="details">Employee Information</string>
+        <string name="eid">Employee Id :  </string>
+        <string name="ename">Employee Name :</string>
+        <string name="edesg">Employee Designation :  </string>
+       
+    
+    
+
+</resources>
