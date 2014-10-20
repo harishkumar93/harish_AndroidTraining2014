@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">ServicesDemo</string>
+    <string name="start_txt">Start Service</string>
+    <string name="stop_txt">Stop Service</string>
+    <string name="create_txt"> Service Created</string>
+    <string name="started_txt"> Service Started</string>
+    <string name="destroy_txt"> Service Destroyed</string>
+
+</resources>
